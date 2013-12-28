@@ -2,9 +2,11 @@
 	"name": "random-flix",
 	"version": "0.2",
 	"manifest_version": 2,
+	"default_locale": "en",
 	"description": "Add a 'Random Episode' button to Netflix Watch Instantly pages.",
 	"content_scripts": [ {
 		"js": [ "jquery.min.js", "main.js" ],
 		"matches": [ "http://movies.netflix.com/WiMovie/*" ]
-	} ]
+	} ],
+	"icons": { "128": "icon128.png" }
 }
