@@ -7,5 +7,5 @@
 		"js": [ "jquery.min.js", "main.js" ],
 		"matches": [ "http://movies.netflix.com/WiMovie/*" ]
 	} ],
-	"icons": { "128": "icon128.png" }
+	"icons": { "128": "icon.png" }
 }
