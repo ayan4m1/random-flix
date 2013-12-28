@@ -1,0 +1,6 @@
+.idea/
+*.ipr
+*.iws
+*.iml
+node_modules/
+build/
