@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        random-flix
 // @namespace   http://thekreml.in
-// @version     0.1
+// @version     0.2
 // @grant       none
 // @description Add a 'Random Episode' button to Netflix Watch Instantly pages.
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js

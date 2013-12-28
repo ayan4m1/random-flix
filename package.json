@@ -1,6 +1,6 @@
 {
   "name": "random-flix",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-compress": "~0.4.9",
