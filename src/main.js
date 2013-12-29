@@ -14,18 +14,18 @@ jQuery(function($) {
 		{
 			'selector': '.episodeList li',
 			'insert': function() {
-				var elem = $('<span class="mltBtn"><a class="svf-button svfb-silver evo-btn svf-button-inq" style="margin-left:10px"><span class="inr">Random Episode</span></a></span>');
+				var elem = $('<span class="mltBtn" style="float:right"><a class="svf-button svfb-silver evo-btn svf-button-inq"><span class="inr">Random Episode</span></a></span>');
 				elem.on('click', function() {
 					var idx = randomIdx($('.episodeList li').length);
 					$('#e' + idx).trigger('click');
 				});
-				$('#seasonSelector').after(elem);
+				$('#seasonSelector, .episodeHeading').after(elem);
 			}
 		},
 		{
 			'selector': '.currentSeason .videoRow',
 			'insert': function() {
-				var elem = $('<span class="mltBtn" style="position:relative;top:35px;float:right"><a class="svf-button svfb-silver evo-btn svf-button-inq" style="margin-left:10px"><span class="inr">Random Episode</span></a></span>');
+				var elem = $('<span class="mltBtn" style="position:relative;top:35px;float:right"><a class="svf-button svfb-silver evo-btn svf-button-inq"><span class="inr">Random Episode</span></a></span>');
 				elem.on('click', function() {
 					var idx = randomIdx($('.currentSeason .videoRow').length);
 					$('.currentSeason .videoRow:nth-child(' + idx + ')').trigger('click');
