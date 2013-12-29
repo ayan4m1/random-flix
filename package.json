@@ -1,9 +1,13 @@
 {
-  "name": "random-flix",
-  "version": "0.4.0",
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-compress": "~0.4.9",
-	  "grunt-contrib-copy": "~0.5.0"
-  }
+	"name": "random-flix",
+	"version": "0.5.0",
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-contrib-compress": "~0.4.9",
+		"grunt-contrib-concat": "~0.3.0"
+	},
+	"manifest": {
+		"matches": [ "http://movies.netflix.com/WiMovie/*" ],
+		"icons": { "128": "icon.png" }
+	}
 }
